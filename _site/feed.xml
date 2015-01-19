@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <description></description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Jan 2015 21:52:46 -0500</pubDate>
-    <lastBuildDate>Sun, 18 Jan 2015 21:52:46 -0500</lastBuildDate>
+    <title>James Corey</title>
+    <description>Portfolio Site</description>
+    <link>//mmjames04.github.io/</link>
+    <atom:link href="//mmjames04.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 18 Jan 2015 22:16:46 -0500</pubDate>
+    <lastBuildDate>Sun, 18 Jan 2015 22:16:46 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -27,8 +27,8 @@
 
 </description>
         <pubDate>Sun, 18 Jan 2015 06:31:47 -0500</pubDate>
-        <link>/jekyll/update/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">/jekyll/update/welcome-to-jekyll/</guid>
+        <link>//mmjames04.github.io/jekyll/update/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">//mmjames04.github.io/jekyll/update/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>

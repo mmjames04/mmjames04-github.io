@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-    <title></title>
+    
+
+    <title>James Corey</title>
     <generator uri="https://github.com/jekyll/jekyll">Jekyll v2.4.0</generator>
-		<icon>/apple-touch-icon-precomposed.png</icon>
-    <subtitle></subtitle>
-    <link href="/atom.xml" rel="self"/>
-    <link href="/" rel="alternate" type="text/html"/>
-    <updated>2015-01-18T21:52:46-05:00</updated>
-    <id>/</id>
+		<icon>//mmjames04.github.io/apple-touch-icon-precomposed.png</icon>
+    <subtitle>Portfolio Site</subtitle>
+    <link href="//mmjames04.github.io/atom.xml" rel="self"/>
+    <link href="//mmjames04.github.io/" rel="alternate" type="text/html"/>
+    <updated>2015-01-18T22:16:46-05:00</updated>
+    <id>//mmjames04.github.io/</id>
     <author>
 			<name></name>
-			<uri>/</uri>
+			<uri>//mmjames04.github.io/</uri>
 			
 		</author>
 
     
     <entry>
         <title>Welcome to Jekyll!</title>
-        <link href="/jekyll/update/welcome-to-jekyll/"/>
+        <link href="//mmjames04.github.io/jekyll/update/welcome-to-jekyll/"/>
         <updated>2015-01-18T06:31:47-05:00</updated>
-        <id>/jekyll/update/welcome-to-jekyll</id>
+        <id>//mmjames04.github.io/jekyll/update/welcome-to-jekyll</id>
         <author>
 					<name></name>
-					<uri>/</uri>
+					<uri>//mmjames04.github.io/</uri>
 					
 				</author>
         <content type="html">
