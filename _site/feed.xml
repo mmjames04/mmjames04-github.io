@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>James Corey</title>
-    <description>This is my portfolio page.  
-</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Jan 2015 20:13:09 -0500</pubDate>
-    <lastBuildDate>Sun, 18 Jan 2015 20:13:09 -0500</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <title></title>
+    <description></description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 18 Jan 2015 21:52:46 -0500</pubDate>
+    <lastBuildDate>Sun, 18 Jan 2015 21:52:46 -0500</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -28,8 +27,8 @@
 
 </description>
         <pubDate>Sun, 18 Jan 2015 06:31:47 -0500</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/01/18/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/01/18/welcome-to-jekyll.html</guid>
+        <link>/jekyll/update/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">/jekyll/update/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
