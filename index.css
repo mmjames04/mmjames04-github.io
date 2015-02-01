@@ -1,4 +1,88 @@
 body {
 	text-align: center;
 	margin: auto;
+	font-family: 'Ubuntu', sans-serif;
 }
+
+#main_background {
+	background-image: url("Accra_background.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	z-index: 1;
+	background-position: center top;
+	background-attachment: fixed;
+	padding-bottom: 15em;
+}
+
+#profile {
+	background-color: white;
+	z-index: 2;
+	padding: 50px;
+	width: 500px;
+	margin: auto;
+	text-align: center;
+	margin-top: 12%;
+	border-radius: 75%;
+}
+
+#profile img {
+	border-radius: 50%;
+}
+
+header {
+	background-color: white;
+	margin: auto;
+	padding: 20px;
+	z-index: 2;
+}
+
+.inner-wrap a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+}
+
+.site-title {
+	float: left;
+	display: block;
+}
+
+#adinkra {
+	height: 30px;
+	width: auto;
+}
+
+#twitter_button {
+	height: 50px;
+	width: auto;
+}
+
+#linkedin_button {
+	height: 60px;
+	width: auto;
+}
+
+#github_button {
+	height: 60px;
+	width: auto;
+}
+
+#email_button {
+	height: 60px;
+	width: auto;
+}
+
+footer ul {
+	list-style-type: none;
+	text-align: center;
+	float: center;
+	width: 500px;
+	margin: auto;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
