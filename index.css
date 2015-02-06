@@ -8,7 +8,6 @@ body {
 	background-image: url("Accra_background.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	z-index: 1;
 	background-position: center top;
 	background-attachment: fixed;
 	padding-bottom: 15em;
@@ -16,7 +15,6 @@ body {
 
 #profile {
 	background-color: white;
-	z-index: 2;
 	padding: 50px;
 	width: 500px;
 	margin: auto;
@@ -36,15 +34,37 @@ header {
 	z-index: 2;
 }
 
-.inner-wrap a {
+.site-nav a {
 	text-decoration: none;
 	color: black;
-	display: inline-block;
+	display: inline-block;	
+}
+
+#masthead {
+	height: 50px;
+	padding-top: 0;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .site-title {
 	float: left;
-	display: block;
+	font-size: large;
+	padding-bottom: 10px;
+	padding-top: 0px;
+	display: inline-block;
+}
+
+.site-title h2 {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+}
+
+.site-nav {
+	display: inline-block;
+	float: right;
+	padding-top: 10px;
 }
 
 #adinkra {
@@ -52,25 +72,17 @@ header {
 	width: auto;
 }
 
-#twitter_button {
-	height: 50px;
-	width: auto;
+#about p {
+	width: 800px;
+	text-align: center;
+	margin: auto;
 }
 
-#linkedin_button {
-	height: 60px;
-	width: auto;
+#about .fa {
+	padding-top: 20px;
+	color: black;
 }
 
-#github_button {
-	height: 60px;
-	width: auto;
-}
-
-#email_button {
-	height: 60px;
-	width: auto;
-}
 
 footer ul {
 	list-style-type: none;
@@ -78,11 +90,15 @@ footer ul {
 	float: center;
 	width: 500px;
 	margin: auto;
+	padding: 0;
 }
 
 footer ul li {
 	display: inline-block;
-	margin: 0;
-	padding: 0;
+	margin: 5px;
+}
+
+.fa {
+	color: black;
 }
 
