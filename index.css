@@ -85,6 +85,10 @@ header {
 	color: black;
 }
 
+#about .fa:hover {
+	color: red;
+}
+
 iframe {
 	margin: auto;
 }
@@ -109,5 +113,9 @@ footer ul li {
 
 .fa {
 	color: black;
+}
+
+.fa:hover {
+	color: red;
 }
 
