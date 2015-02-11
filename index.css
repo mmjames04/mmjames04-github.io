@@ -10,7 +10,7 @@ body {
 	background-size: 100%;
 	background-position: center 50%;
 	background-attachment: fixed;
-	padding-bottom: 30em;
+	padding-bottom: 20em;
 }
 
 #profile {
@@ -25,6 +25,8 @@ body {
 
 #profile img {
 	border-radius: 50%;
+	height: 100px;
+	width: auto;
 }
 
 header {
