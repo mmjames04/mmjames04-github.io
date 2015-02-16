@@ -1,0 +1,155 @@
+*{
+	box-sizing:border-box;
+}
+
+body {
+	text-align: center;
+	margin: auto;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#main_background {
+	background-image: url("Accra_skyline.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center 50%;
+	background-attachment: fixed;
+	padding-bottom: 10em;
+	height: 50em;
+}
+
+#profile {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 30%;
+	height: 20em;
+	margin: auto;
+	background: url("ga_profilepic.png") no-repeat;
+	width: 20em;
+	border-radius: 95%;
+	border: 3px solid white;
+	margin: auto;
+}
+
+header {
+	background-color: white;
+	margin: auto;
+	padding: 2em;
+}
+
+.site-nav {
+	display: inline-block;
+	float: right;
+	padding-top: 10px;
+
+	a {
+		text-decoration: none;
+		color: black;
+		display: inline-block;	
+	}
+}
+
+#masthead {
+	height: 4.5em;
+	padding-top: 0;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+.site-title {
+	float: left;
+	font-size: large;
+	padding-bottom: 10px;
+	padding-top: 0px;
+	display: inline-block;
+
+	h2 {
+		display: inline-block;
+		text-decoration: none;
+		color: black;
+	}
+}
+
+
+
+#adinkra {
+	height: 30px;
+	width: auto;
+}
+
+#about{ 
+	p {
+		width: 800px;
+		text-align: center;
+		margin: auto;
+	}
+
+	.fa {
+		padding-top: 20px;
+		color: black;
+	}
+
+	.fa:hover {
+		color: red;
+	}
+}
+
+iframe {
+	margin: auto;
+}
+
+.portfolio {
+}
+	.portfolio .citizen .cit_photo {
+		border: 2px solid red;
+		width: 66.66%;
+		float: left;
+		display: inline-block;
+	}
+
+	.cit_text {
+		width: 33.33%;
+		float: left;
+		display: inline-block;
+	}
+
+/*	.twitter-burst {
+		display: inline-block;
+		float: left;
+		width: 50em;
+	}
+*/
+
+
+.blog {
+	display: block;
+	height: 100%;
+}
+
+footer {
+	padding-top: 20px;
+	display: block;
+
+	ul {
+		list-style-type: none;
+		text-align: center;
+		float: center;
+		width: 50em;
+		margin: auto;
+		padding: 0;
+	}
+
+	li {
+		display: inline-block;
+		margin: 5px;
+	}
+}
+
+.fa {
+	color: black;
+}
+.fa:hover {
+	color: red;
+}
+
