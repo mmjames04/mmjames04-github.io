@@ -39,9 +39,11 @@ header {
 }
 
 .site-nav {
-	display: inline-block;
-	float: right;
-	padding-top: 10px;
+	position:fixed;
+	height: 100%;
+	width: 25%;
+	background-color: red;
+	z-index:-1;
 
 	a {
 		text-decoration: none;
@@ -55,6 +57,19 @@ header {
 	padding-top: 0;
 	padding-left: 3em;
 	padding-right: 3em;
+	transition: all .2s ease;
+}
+
+:checked ~ #masthead {
+	margin-right:25%;
+}
+
+input[type="checkbox"]{
+	display:none;
+}
+
+label {
+	font-size: 3em;
 }
 
 .site-title {
@@ -79,6 +94,7 @@ header {
 }
 
 #about{ 
+	background-color: white;
 	p {
 		width: 800px;
 		text-align: center;
@@ -100,6 +116,7 @@ iframe {
 }
 
 .portfolio {
+	background-color: white;
 }
 	.portfolio .citizen .cit_photo {
 		border: 2px solid red;
