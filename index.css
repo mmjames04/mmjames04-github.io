@@ -76,12 +76,17 @@ header {
 iframe {
   margin: auto; }
 
-#portfolio #trlstr {
+#portfolio .projects {
+  display: block;
+  width: 50em;
+  height: 25em;
+  margin: auto; }
+#portfolio #coming {
   display: block;
   width: 50em;
   height: 20em;
   margin: auto; }
-#portfolio #twitter-burst {
+#portfolio #trlstr {
   display: block;
   width: 50em;
   height: 20em;
@@ -91,6 +96,15 @@ iframe {
   width: 50em;
   height: 20em;
   margin: auto; }
+#portfolio #coming_photo img {
+  box-shadow: 0 0 1em black;
+  float: left;
+  display: inline-block; }
+#portfolio #coming_text {
+  float: left;
+  display: inline-block;
+  padding-left: 5em;
+  width: 50%; }
 #portfolio #trlstr_photo img {
   box-shadow: 0 0 1em black;
   float: left;
@@ -112,17 +126,6 @@ iframe {
   padding-left: 5em;
   width: 49%; }
   #portfolio #cit_text h2 {
-    margin-top: 0; }
-#portfolio #twitter-burst img {
-  box-shadow: 0 0 1em black;
-  float: left;
-  display: inline-block; }
-#portfolio #twit_text {
-  float: left;
-  display: inline-block;
-  padding-left: 5em;
-  width: 50%; }
-  #portfolio #twit_text h2 {
     margin-top: 0; }
 
 .blog {
