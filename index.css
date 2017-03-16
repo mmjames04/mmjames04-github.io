@@ -7,7 +7,7 @@ body {
   font-family: 'Ubuntu', sans-serif; }
 
 #main_background {
-  background-image: url("Accra_skyline.png");
+  background-image: url("images/Accra_skyline.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center 50%;
@@ -22,7 +22,7 @@ body {
   top: 30%;
   height: 20em;
   margin: auto;
-  background: url("ga_profilepic.png") no-repeat;
+  background: url("images/ga_profilepic.png") no-repeat;
   width: 20em;
   border-radius: 95%;
   border: 3px solid white;
